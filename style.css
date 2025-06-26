@@ -1,0 +1,97 @@
+/* Reset đơn giản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  background-color: #fff8f2;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #ffe0f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ff5c8d;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Article */
+main article {
+  background-color: #ffffff;
+  border: 2px dashed #ffd6e0;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+h2 {
+  color: #2a92bf;
+  font-size: 1.5rem;
+  margin: 25px 0 10px;
+}
+
+p, ul {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* List */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  list-style: square;
+  margin-bottom: 8px;
+}
+
+/* Links */
+a {
+  color: #ff5c8d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #ffb6c1;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fbeaff;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
